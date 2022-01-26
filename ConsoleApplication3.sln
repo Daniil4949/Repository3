@@ -1,51 +1,32 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication3", "ConsoleApplication3\ConsoleApplication3.vcxproj", "{735D7769-4898-4F68-997B-02D11FF0747D}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample-Test1", "Sample-Test1\Sample-Test1.vcxproj", "{DBDA6F7D-2B85-482E-A13D-9580903AE7DB}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample-Test2", "Sample-Test2\Sample-Test2.vcxproj", "{4E9F6B2A-ED04-4BB7-B117-3104BC72B271}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{735D7769-4898-4F68-997B-02D11FF0747D}.Debug|x64.ActiveCfg = Debug|x64
-		{735D7769-4898-4F68-997B-02D11FF0747D}.Debug|x64.Build.0 = Debug|x64
-		{735D7769-4898-4F68-997B-02D11FF0747D}.Debug|x86.ActiveCfg = Debug|Win32
-		{735D7769-4898-4F68-997B-02D11FF0747D}.Debug|x86.Build.0 = Debug|Win32
-		{735D7769-4898-4F68-997B-02D11FF0747D}.Release|x64.ActiveCfg = Release|x64
-		{735D7769-4898-4F68-997B-02D11FF0747D}.Release|x64.Build.0 = Release|x64
-		{735D7769-4898-4F68-997B-02D11FF0747D}.Release|x86.ActiveCfg = Release|Win32
-		{735D7769-4898-4F68-997B-02D11FF0747D}.Release|x86.Build.0 = Release|Win32
-		{DBDA6F7D-2B85-482E-A13D-9580903AE7DB}.Debug|x64.ActiveCfg = Debug|x64
-		{DBDA6F7D-2B85-482E-A13D-9580903AE7DB}.Debug|x64.Build.0 = Debug|x64
-		{DBDA6F7D-2B85-482E-A13D-9580903AE7DB}.Debug|x86.ActiveCfg = Debug|Win32
-		{DBDA6F7D-2B85-482E-A13D-9580903AE7DB}.Debug|x86.Build.0 = Debug|Win32
-		{DBDA6F7D-2B85-482E-A13D-9580903AE7DB}.Release|x64.ActiveCfg = Release|x64
-		{DBDA6F7D-2B85-482E-A13D-9580903AE7DB}.Release|x64.Build.0 = Release|x64
-		{DBDA6F7D-2B85-482E-A13D-9580903AE7DB}.Release|x86.ActiveCfg = Release|Win32
-		{DBDA6F7D-2B85-482E-A13D-9580903AE7DB}.Release|x86.Build.0 = Release|Win32
-		{4E9F6B2A-ED04-4BB7-B117-3104BC72B271}.Debug|x64.ActiveCfg = Debug|x64
-		{4E9F6B2A-ED04-4BB7-B117-3104BC72B271}.Debug|x64.Build.0 = Debug|x64
-		{4E9F6B2A-ED04-4BB7-B117-3104BC72B271}.Debug|x86.ActiveCfg = Debug|Win32
-		{4E9F6B2A-ED04-4BB7-B117-3104BC72B271}.Debug|x86.Build.0 = Debug|Win32
-		{4E9F6B2A-ED04-4BB7-B117-3104BC72B271}.Release|x64.ActiveCfg = Release|x64
-		{4E9F6B2A-ED04-4BB7-B117-3104BC72B271}.Release|x64.Build.0 = Release|x64
-		{4E9F6B2A-ED04-4BB7-B117-3104BC72B271}.Release|x86.ActiveCfg = Release|Win32
-		{4E9F6B2A-ED04-4BB7-B117-3104BC72B271}.Release|x86.Build.0 = Release|Win32
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8C178574-0F27-4EED-BF76-8ADC775C0E07}
-	EndGlobalSection
-EndGlobal
+#include<iostream>
+#include<string>
+using namespace std;
+struct student {
+	string surname;
+	string name;
+	int date_of_birth;
+	int group;
+	int phys;
+	int math;
+	int chem;
+	int inf;
+	int avr;
+};
+
+
+int main() {
+	system("chcp 1251>nul");
+	int n;
+	cout << "Введите количество студентов: ";
+	cin >> n;
+	student arr[100];
+	for (int i = 0; i < n; ++i) {
+		cin >> arr[i].surname >> arr[i].name >> arr[i].date_of_birth >> arr[i].group >> arr[i].phys >> arr[i].math >> arr[i].chem >>arr[i].inf>> arr[i].avr;
+	}
+	for (int i = 0; i < n; ++i) {
+		if ((arr[i].phys == 4 || arr[i].phys == 5) && arr[i].math>8 && arr[i].inf>8 && arr[i].chem>8 && arr[i].inf > 8) {
+			cout << arr[i].surname << " " << arr[i].name <<" " << arr[i].date_of_birth <<" " << arr[i].group << endl;
+		}
+	}
+	return 0;
+}

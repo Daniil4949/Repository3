@@ -1,0 +1,5 @@
+﻿  Denis.cpp
+D:\Denis\Denis.cpp(120,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Denis\Denis.cpp(154,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Denis\Denis.cpp(229,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Denis.vcxproj -> D:\Denis\Debug\Denis.exe

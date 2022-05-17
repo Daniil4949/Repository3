@@ -1,0 +1,8 @@
+﻿  ConsoleApplication8.cpp
+D:\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(59,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(96,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(98,29): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(105,25): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(109,44): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(137,29): warning C4018: <: несоответствие типов со знаком и без знака
+  ConsoleApplication8.vcxproj -> D:\ConsoleApplication8\Debug\ConsoleApplication8.exe

@@ -1,0 +1,8 @@
+﻿  ConsoleApplication10.cpp
+D:\ConsoleApplication10\ConsoleApplication10\ConsoleApplication10.cpp(72,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ConsoleApplication10\ConsoleApplication10\ConsoleApplication10.cpp(105,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ConsoleApplication10\ConsoleApplication10\ConsoleApplication10.cpp(107,27): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ConsoleApplication10\ConsoleApplication10\ConsoleApplication10.cpp(114,25): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ConsoleApplication10\ConsoleApplication10\ConsoleApplication10.cpp(118,44): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ConsoleApplication10\ConsoleApplication10\ConsoleApplication10.cpp(145,29): warning C4018: <: несоответствие типов со знаком и без знака
+  ConsoleApplication10.vcxproj -> D:\ConsoleApplication10\Debug\ConsoleApplication10.exe

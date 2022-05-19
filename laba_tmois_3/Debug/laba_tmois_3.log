@@ -1,0 +1,4 @@
+﻿  laba_tmois_3.cpp
+D:\laba_tmois_3\laba_tmois_3.cpp(669,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\laba_tmois_3\laba_tmois_3.cpp(690,23): warning C4018: <=: несоответствие типов со знаком и без знака
+  laba_tmois_3.vcxproj -> D:\laba_tmois_3\Debug\laba_tmois_3.exe

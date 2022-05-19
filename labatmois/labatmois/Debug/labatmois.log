@@ -1,0 +1,4 @@
+﻿  labatmois.cpp
+D:\labatmois\labatmois\labatmois.cpp(26,6): warning C4101: i: неиспользованная локальная переменная
+D:\labatmois\labatmois\labatmois.cpp(25,26): warning C4101: mY: неиспользованная локальная переменная
+  labatmois.vcxproj -> D:\labatmois\Debug\labatmois.exe
